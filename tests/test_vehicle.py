@@ -5,6 +5,25 @@ def test_vehicles(fake, vehicles):
     v = vehicles[0]
     assert 'Make' in v.keys()
     assert 'Model' in v.keys()
+    
+
+def test_vehicles_4(fake, vehicles):
+    assert len(vehicles) > 4
+    v = vehicles[0]
+    assert 'Make' in v.keys()
+    assert 'Model' in v.keys()    
+
+
+def test_vehicles_3(fake, vehicles):
+    assert len(vehicles) > 3
+
+def test_vehicles_2(fake, vehicles):
+    assert len(vehicles) > 2
+
+    v = vehicles[0]
+    assert 'Make' in v.keys()
+    assert 'Model' in v.keys()
+
 
 
 def test_make(fake, makes):
@@ -51,3 +70,4 @@ def test_vehicle_year_make_model_cat(fake):
     assert len(ar_ymmc) >= 3
     # check to see if first word is a number (year)
     assert float(ar_ymmc[0]).is_integer()
+   

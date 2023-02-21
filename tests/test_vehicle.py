@@ -7,6 +7,8 @@ def test_vehicles(fake, vehicles):
     assert 'Model' in v.keys()
     
 def test_vehicles_2(fake, vehicles):
+    # testing tags v.1.1
+    tag = 'v.1.1'
     assert len(vehicles) > 2
     v = vehicles[0]
     assert 'Make' in v.keys()

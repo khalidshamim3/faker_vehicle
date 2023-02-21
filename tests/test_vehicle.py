@@ -18,6 +18,8 @@ def test_vehicles_3(fake, vehicles):
     assert len(vehicles) > 3
 
 def test_vehicles_2(fake, vehicles):
+    # testing tags v.1.1
+    tag = 'v.1.1'
     assert len(vehicles) > 2
 
     v = vehicles[0]

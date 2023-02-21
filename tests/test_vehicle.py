@@ -4,6 +4,11 @@ def sum(a,b):
     sum = a+b
     return sum
 
+#added multiplication func.
+def multiply(a,b):
+    prod = a*b
+    return prod
+
 def test_vehicles(fake, vehicles):
     assert len(vehicles) > 1
     v = vehicles[0]

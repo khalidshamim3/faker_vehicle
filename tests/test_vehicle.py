@@ -4,6 +4,11 @@ def sum(a,b):
     sum = a+b
     return sum
 
+#added subtraction func.
+def subtraction(a,b):
+    diff = a-b
+    return diff
+
 def test_vehicles(fake, vehicles):
     assert len(vehicles) > 1
     v = vehicles[0]

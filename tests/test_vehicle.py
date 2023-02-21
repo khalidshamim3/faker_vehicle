@@ -5,6 +5,12 @@ def test_vehicles(fake, vehicles):
     v = vehicles[0]
     assert 'Make' in v.keys()
     assert 'Model' in v.keys()
+    
+def test_vehicles_3(fake, vehicles):
+    assert len(vehicles) > 3
+    v = vehicles[0]
+    assert 'Make' in v.keys()
+    assert 'Model' in v.keys()
 
 
 def test_make(fake, makes):

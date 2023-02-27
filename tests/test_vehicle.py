@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-
-
+def sum(a,b):
+    sum = a+b
+    return sum
 
 def test_vehicles(fake, vehicles):
     assert len(vehicles) > 1

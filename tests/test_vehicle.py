@@ -1,4 +1,20 @@
 # -*- coding: utf-8 -*-
+def sum(a,b):
+    sum = a+b
+    return sum
+
+#added subtraction func.
+def feature1_engg1(a,b):
+    diff = a-b
+    return diff
+
+def feature1_engg2(b,c):
+    diff = b-c
+    return diff
+
+def feature1_engg3(c,d):
+    diff = c-d
+    return diff
 
 def test_vehicles(fake, vehicles):
     assert len(vehicles) > 1

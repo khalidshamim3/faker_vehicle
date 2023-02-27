@@ -3,6 +3,19 @@ def sum(a,b):
     sum = a+b
     return sum
 
+#added multiplication func.
+def feature2_engg1(a,b):
+    prod = a*b
+    return prod
+
+def feature2_engg2(b,c):
+    prod = b*c
+    return prod
+
+def feature2_engg3(c,d):
+    prod = c*d
+    return prod
+
 def test_vehicles(fake, vehicles):
     assert len(vehicles) > 1
     v = vehicles[0]

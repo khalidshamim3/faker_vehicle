@@ -5,7 +5,7 @@ def sum(a,b):
     return sum
 
 #added multiplication func.
-def multiply(a,b):
+def feature2(a,b):
     prod = a*b
     return prod
 

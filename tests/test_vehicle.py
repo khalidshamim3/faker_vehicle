@@ -1,13 +1,6 @@
 # -*- coding: utf-8 -*-
 
-def sum(a,b):
-    sum = a+b
-    return sum
 
-#added multiplication func.
-def feature2(a,b):
-    prod = a*b
-    return prod
 
 def test_vehicles(fake, vehicles):
     assert len(vehicles) > 1

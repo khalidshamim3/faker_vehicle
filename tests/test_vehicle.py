@@ -3,6 +3,7 @@ def sum(a,b):
     sum = a+b
     return sum
 
+
 #added division func.
 def feature3_engg1(a,b):
     div = a//b
@@ -15,6 +16,35 @@ def feature3_engg2(b//c):
 def feature3_engg3(c,d):
     div = c//d
     return div
+
+
+#added multiplication func.
+def feature2_engg1(a,b):
+    prod = a*b
+    return prod
+
+def feature2_engg2(b,c):
+    prod = b*c
+    return prod
+
+def feature2_engg3(c,d):
+    prod = c*d
+    return prod
+
+#added subtraction func.
+def feature1_engg1(a,b):
+    diff = a-b
+    return diff
+
+def feature1_engg2(b,c):
+    diff = b-c
+    return diff
+
+def feature1_engg3(c,d):
+    diff = c-d
+    return diff
+
+
 
 def test_vehicles(fake, vehicles):
     assert len(vehicles) > 1

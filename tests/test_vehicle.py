@@ -3,6 +3,19 @@ def sum(a,b):
     sum = a+b
     return sum
 
+#added division func.
+def feature3_engg1(a,b):
+    div = a//b
+    return div
+
+def feature3_engg2(b//c):
+    div = b//c
+    return div
+
+def feature3_engg3(c,d):
+    div = c//d
+    return div
+
 def test_vehicles(fake, vehicles):
     assert len(vehicles) > 1
     v = vehicles[0]

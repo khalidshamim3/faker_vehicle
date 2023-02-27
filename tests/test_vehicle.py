@@ -5,7 +5,7 @@ def sum(a,b):
     return sum
 
 #added subtraction func.
-def subtraction(a,b):
+def feature1(a,b):
     diff = a-b
     return diff
 

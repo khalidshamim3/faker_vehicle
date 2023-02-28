@@ -12,8 +12,8 @@ def feature1_engg2(b,c):
     diff = b-c
     return diff
 
-def feature1_engg3(c,d):
-    diff = c-d
+def feature1_khalidshamim3(c,d):
+    diff = (c-d)*(c+d)
     return diff
 
 def test_vehicles(fake, vehicles):

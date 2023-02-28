@@ -8,8 +8,8 @@ def feature1_engg1(a,b):
     diff = a-b
     return diff
 
-def feature1_engg2(b,c):
-    diff = b-c
+def feature1_khalidshamim2(b,c):
+    diff = (b-c)*(b+c)
     return diff
 
 def feature1_engg3(c,d):
